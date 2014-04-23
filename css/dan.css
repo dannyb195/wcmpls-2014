@@ -1,0 +1,60 @@
+body {
+	text-align: center;
+}
+.reveal a:not(.image) {
+	color: #bada55;
+	text-decoration: underline;
+	-webkit-transition: color .15s ease;
+	-moz-transition: color .15s ease;
+	-ms-transition: color .15s ease;
+	-o-transition: color .15s ease;
+	transition: color .15s ease;
+}
+.reveal a:not(.image):hover {
+	color: #ccc;
+	text-shadow: none;
+	border: none;
+}
+img {
+	position: relative;
+}
+img.me {
+	float: left;
+	width: 300px;
+	height: auto;
+}
+ul {
+	float: left;
+}
+ul li, ul ul {
+	line-height: 2.1rem !important;
+}
+.reveal li {
+	float: left;
+	margin:0 0 .8rem;
+}
+p.clear {
+	clear: both;
+}
+small {
+	width: 100%;
+	clear: both;
+}
+.left {
+	float: left;
+	max-width: 45% !important;
+}
+.half-right {
+	float: right;
+	width: 50%;
+}
+.bada55 {
+	color: #bada55;
+}
+.reveal small {
+	display: inline;
+	font-size: .6em;
+	line-height: 2.2em;
+	vertical-align: top;
+	letter-spacing: .01rem;
+}
